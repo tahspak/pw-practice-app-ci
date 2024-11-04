@@ -37,7 +37,7 @@ export default defineConfig<TestOptions>({
         : "http://localhost:4200/",
 
     trace: "on-first-retry",
-    screenshot: "only-on-failure",
+    screenshot: "on",
     actionTimeout: 20000,
     navigationTimeout: 25000,
     video: {
