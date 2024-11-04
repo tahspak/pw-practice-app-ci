@@ -1,6 +1,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "skipLibCheck": true,
     "types": ["node", "@playwright/test"],
     "esModuleInterop": true,
     "importHelpers": true,
@@ -12,7 +13,7 @@
     "experimentalDecorators": true,
     "target": "es2020",
     "typeRoots": ["node_modules/@types"],
-    "lib": ["es2017", "dom"],
+    "lib": ["ESNext", "DOM"], // Updated to include ESNext for newer features
     "plugins": [{ "name": "tslint-language-service" }]
   }
 }
